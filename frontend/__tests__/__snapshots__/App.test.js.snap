@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component renders correctly 1`] = `
+<div
+  className="app"
+>
+  <div
+    className="default-layout"
+  >
+    <nav
+      className="header navbar navbar-expand-md navbar-light bg-light"
+    >
+      <ul
+        className="mr-auto navbar-nav"
+      >
+        <li
+          className="nav-item"
+        >
+          <a
+            className="nav-link"
+            href="/"
+            onClick={[Function]}
+          >
+            Home
+          </a>
+        </li>
+        <li
+          className="nav-item"
+        >
+          <a
+            className="nav-link"
+            href="/about"
+            onClick={[Function]}
+          >
+            About Us
+          </a>
+        </li>
+        <li
+          className="nav-item"
+        >
+          <a
+            className="nav-link"
+            href="/portfolio"
+            onClick={[Function]}
+          >
+            Portfolio
+          </a>
+        </li>
+        <li
+          className="nav-item"
+        >
+          <a
+            className="nav-link"
+            href="/news"
+            onClick={[Function]}
+          >
+            News
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div
+      className="row"
+      style={
+        Object {
+          "margin": "auto",
+        }
+      }
+    >
+      <div
+        className="col-12 col"
+      >
+        <div
+          className="home"
+        >
+          <h4>
+            Home Page
+          </h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

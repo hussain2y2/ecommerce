@@ -1,0 +1,9 @@
+@import '~bootstrap/scss/bootstrap';
+
+body {
+  font-size: .875em;
+}
+
+@import 'topbar';
+@import 'sideBar';
+@import 'footer';
