@@ -1,0 +1,24 @@
+{
+    "name": "isotopes/detail",
+    "description": "description",
+    "authors": [
+        {
+            "name": "hussain",
+            "email": "email@example.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Isotopes\\Detail\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Isotopes\\Detail\\DetailServiceProvider"
+            ]
+        }
+    }
+}

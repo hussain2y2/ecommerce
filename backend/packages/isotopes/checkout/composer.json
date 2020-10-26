@@ -1,0 +1,23 @@
+{
+    "name": "isotopes/checkout",
+    "description": "description",
+    "authors": [
+        {
+            "name": "hussain",
+            "email": "email@example.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Isotopes\\Checkout\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Isotopes\\Checkout\\CheckoutServiceProvider"
+            ]
+        }
+    }
+}

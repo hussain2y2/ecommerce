@@ -7,13 +7,41 @@
         "laravel"
     ],
     "license": "MIT",
+    "repositories": {
+        "category": {
+            "type": "path",
+            "url": "packages/isotopes/category"
+        },
+        "checkout": {
+            "type": "path",
+            "url": "packages/isotopes/checkout"
+        },
+        "detail": {
+            "type": "path",
+            "url": "packages/isotopes/detail"
+        },
+        "listing": {
+            "type": "path",
+            "url": "packages/isotopes/listing"
+        },
+        "order": {
+            "type": "path",
+            "url": "packages/isotopes/order"
+        }
+    },
     "require": {
         "php": "^7.3",
         "fideloper/proxy": "^4.2",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
+        "isotopes/category": "*",
+        "isotopes/checkout": "*",
+        "isotopes/detail": "*",
+        "isotopes/listing": "*",
+        "isotopes/order": "*",
         "laravel/framework": "^8.0",
-        "laravel/tinker": "^2.0"
+        "laravel/tinker": "^2.0",
+        "predis/predis": "^1.1"
     },
     "require-dev": {
         "facade/ignition": "^2.3.6",

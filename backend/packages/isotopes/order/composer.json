@@ -1,0 +1,24 @@
+{
+    "name": "isotopes/order",
+    "description": "description",
+    "authors": [
+        {
+            "name": "hussain",
+            "email": "email@example.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Isotopes\\Order\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Isotopes\\Order\\OrderServiceProvider"
+            ]
+        }
+    }
+}

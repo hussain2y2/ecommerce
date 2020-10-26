@@ -8,7 +8,7 @@ exports[`App Component renders correctly 1`] = `
     className="default-layout"
   >
     <nav
-      className="header navbar navbar-expand-md navbar-light bg-light"
+      className="topBar navbar navbar-expand-md navbar-light bg-light"
     >
       <ul
         className="mr-auto navbar-nav"
